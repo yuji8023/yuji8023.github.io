@@ -8,7 +8,7 @@
 
 ## 个人介绍
 
-我是胡康威，博客地址：[雨悸](hukangwei.github.io)
+我是胡康威，博客地址：[雨悸](https://hukangwei.github.io)
 
 一个前端的小渣渣，在成为大神的道路上步步前进。
 
