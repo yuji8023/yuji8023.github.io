@@ -1,16 +1,16 @@
 # Site settings
-title: 读立写生
-header-img: "img/green.jpg"
+title: 雨悸8023
+header-img: "img/yujian.jpg"
 tagline: "cn"  
-description: "陈素封|读而立·写而生"  
+description: "胡康威|路漫漫其修远兮，吾将上下而求索"  
 baseurl: ""
-url: "http://cnfeat"  
+url: "http://hukangwei.github.io"  
 
 # About/contact
 owner: 
-  name: " CnFeat"
-  email: CnFeat@gmail.com
-  bio: "写就是写的报酬"
+  name: " yuji8023"
+  email: yuji_hu@163.com
+  bio: "天道酬勤"
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: "post"
       author: "CnFeat"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+      header-img: "img/yujian.jpg" # We don't want posts without a header image, that whould mean white on white
 
 # Comments 
 comments :
