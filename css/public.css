@@ -11,3 +11,9 @@
 #tag_cloud{
 	padding: 10px 0;
 }
+.listing-seperator{
+	list-style: none;
+	color:#c0c0c0;
+	position:relative;
+	left:-16px;
+}

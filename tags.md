@@ -27,7 +27,7 @@ header-img: "img/semantic.jpg"
 {% for post in tag[1] %}
   <li class="listing-item">
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  <time style="float:right;color:#c0c0c0;" datetime="{{ post.date | date:"%Y-%m-%d %H:%M:%S" }}">{{ post.date }}</time>
+  <time style="float:right;color:#c0c0c0;" datetime="{{ post.date | date:"%Y-%m-%d %H:%M:%S" }}">{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</time>
   </li>
 {% endfor %}
 {% endfor %}
