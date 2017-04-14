@@ -1,19 +1,14 @@
 .yu-tag{
-	width: 60px;
+	width: 55px;
 	height: 25px;
 	line-height: 25px;
 	display: inline-block;
-	border: 1px solid #009999;
+	border: 1px solid #ff9244;
 	border-radius: 5px;
 	margin-right: 10px;
 	color: #ff9244;
+	text-align: center;
 }
 #tag_cloud{
 	padding: 10px 0;
-}
-.listing-seperator{
-	list-style: none;
-	color:#c0c0c0;
-	position:relative;
-	left:-16px;
 }
