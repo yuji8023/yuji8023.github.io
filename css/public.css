@@ -1,0 +1,13 @@
+.yu-tag{
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	border: 1px solid #009999;
+	border-radius: 5px;
+	margin-right: 10px;
+	color: #ff9244;
+}
+#tag_cloud{
+	padding: 10px 0;
+}

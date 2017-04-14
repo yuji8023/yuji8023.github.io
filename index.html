@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "雨悸"
+description: "雨悸8023,个人博客,前端知识分享"
 ---
 
 {% for post in paginator.posts %}
@@ -18,7 +18,7 @@ description: "雨悸"
             {{ post.content | strip_html | truncate:150 }}
         </div>
     </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Write by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</p>
 </div>
 
 <hr>
