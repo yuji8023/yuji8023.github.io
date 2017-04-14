@@ -15,7 +15,7 @@ header-img: "img/orange.jpg"
   {% endif %}
   <li class="listing-item">
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <time style="float:right;color:#c0c0c0;" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d %H:%M:%S" }}</time>
+    <time style="float:right;color:#c0c0c0;" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date }}</time>
   </li>
 {% endfor %}
 </ul>
