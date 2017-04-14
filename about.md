@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "关于我"
-description: "学苟知本，六经皆我注脚 "
+description: "媳妇说，天道酬勤(～o￣3￣)～"
 header-img: "img/green.jpg"
 ---
 

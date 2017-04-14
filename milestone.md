@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "milestone"
-description: "知之真切笃实处即是行，行之明觉精察处即是知 "
+title: "个人简历"
+description: "路漫漫其修远兮，吾将上下而求索"
 header-img: "img/zhihu.jpg"
 ---
 
