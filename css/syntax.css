@@ -12,12 +12,6 @@
 .highlight pre code {
   white-space: pre;       // forces <code> to respect <pre> formatting
 }
-.listing-seperator{
-	list-style: none;
-	color:#0086B3;
-	position: relative;
-	left: -5px;
-}
 
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll

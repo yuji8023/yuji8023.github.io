@@ -11,11 +11,11 @@ header-img: "img/orange.jpg"
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if year != y %}
     {% assign year = y %}
-    <li class="listing-seperator">{{ y }}</li>
+    <li class="listing-seperator" style="list-style:none;color:#c0c0c0;position:relative;left:-16px;">{{ y }} 年</li>
   {% endif %}
   <li class="listing-item">
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <time style="float:right;color:#c0c0c0;" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   </li>
 {% endfor %}
 </ul>
