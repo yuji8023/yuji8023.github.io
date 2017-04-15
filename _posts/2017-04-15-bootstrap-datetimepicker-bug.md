@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HelloWorld
+title: bootstrap-datetimepicker的bug
 date: 2017-04-13 20:12:00
 categories: blog
 tags: [blog,html]
