@@ -1,9 +1,9 @@
 ---
 layout: post
 title: bootstrap-datetimepicker的bug
-date: 2017-04-13 20:12:00
+date: 2017-04-15 23:12:00
 categories: blog
-tags: [blog,html]
+tags: [bug]
 description: bootstrap-datetimepicker在火狐下报错的问题
 ---
 
