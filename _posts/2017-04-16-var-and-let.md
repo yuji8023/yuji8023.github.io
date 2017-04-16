@@ -20,16 +20,16 @@ ES6出来这么久了，还没怎么看过，感觉自己不试一个合格的�
 
 ## let
 
-第一次接触let关键字，有一个要非常非常要注意的概念就是”JavaScript 严格模式”，比如下述的代码运行就会报错：
-	let hello = 'hello world.';
-	console.log(hello)
+第一次接触let关键字，有一个要非常非常要注意的概念就是"JavaScript 严格模式"，比如下述的代码运行就会报错：
 
-解决方法： 在文件头添加”javascript 严格模式”声明：
-	'use strict';
 	let hello = 'hello world.';
 	console.log(hello);
 
+解决方法： 在文件头添加"javascript 严格模式"声明：
 
+	'use strict';
+	let hello = 'hello world.';
+	console.log(hello);
 
 ## 异同
 
