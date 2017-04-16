@@ -27,6 +27,6 @@ description: bootstrap-datetimepicker在火狐下报错的问题
 
 就可以了
 
-### 原文链接
+### 参考文章
 
-[原文链接](http://www.cnblogs.com/lhyhappy65/p/5629630.html)
+[技术链接](http://www.cnblogs.com/lhyhappy65/p/5629630.html)
