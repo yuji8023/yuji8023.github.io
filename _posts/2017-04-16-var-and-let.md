@@ -34,6 +34,7 @@ ES6出来这么久了，还没怎么看过，感觉自己不试一个合格的�
 ## 异同
 
 第一种情况:声明后未赋值，表现相同
+
 	'use strict';
 	 (function() { 
 	 	var varTest;
@@ -44,6 +45,7 @@ ES6出来这么久了，还没怎么看过，感觉自己不试一个合格的�
  
  
 第二种:使用未声明的变量，表现不同:
+
 	(function() {
 	  console.log(varTest); //输出undefined(注意要注释掉下面一行才能运行)
 	  console.log(letTest); //直接报错：ReferenceError: letTest is not defined
