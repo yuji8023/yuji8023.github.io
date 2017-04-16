@@ -21,69 +21,69 @@ ES6出来这么久了，还没怎么看过，感觉自己不试一个合格的�
 ## let
 
 第一次接触let关键字，有一个要非常非常要注意的概念就是”JavaScript 严格模式”，比如下述的代码运行就会报错：
-`let hello = 'hello world.';
-console.log(hello)`
+	let hello = 'hello world.';
+	console.log(hello)
 
 解决方法： 在文件头添加”javascript 严格模式”声明：
-`'use strict';
-let hello = 'hello world.';
-console.log(hello);`
+	'use strict';
+	let hello = 'hello world.';
+	console.log(hello);
 
 
 
 ## 异同
 
 第一种情况:声明后未赋值，表现相同
-`'use strict';
- (function() { 
- 	var varTest;
- 	let letTest; 
- 	console.log(varTest); //输出undefined 
- 	console.log(letTest); //输出undefined 
- }());`
+	'use strict';
+	 (function() { 
+	 	var varTest;
+	 	let letTest; 
+	 	console.log(varTest); //输出undefined 
+	 	console.log(letTest); //输出undefined 
+	 }());
  
  
 第二种:使用未声明的变量，表现不同:
-`(function() {
-  console.log(varTest); //输出undefined(注意要注释掉下面一行才能运行)
-  console.log(letTest); //直接报错：ReferenceError: letTest is not defined
-
-  var varTest = 'test var OK.';
-  let letTest = 'test let OK.';
-}());`
+	(function() {
+	  console.log(varTest); //输出undefined(注意要注释掉下面一行才能运行)
+	  console.log(letTest); //直接报错：ReferenceError: letTest is not defined
+	
+	  var varTest = 'test var OK.';
+	  let letTest = 'test let OK.';
+	}());
 
 第三种情况：重复声明同一个变量时，表现不同
 
-`'use strict';
-
-(function() {
-  var varTest = 'test var OK.';
-  let letTest = 'test let OK.';
-
-  var varTest = 'varTest changed.';
-  let letTest = 'letTest changed.'; //直接报错：SyntaxError: Identifier 'letTest' has already been declared
-
-  console.log(varTest); //输出varTest changed.(注意要注释掉上面letTest变量的重复声明才能运行)
-  console.log(letTest);
-}());`
+	'use strict';
+	
+	(function() {
+	  var varTest = 'test var OK.';
+	  let letTest = 'test let OK.';
+	  
+	  var varTest = 'varTest changed.';
+	  let letTest = 'letTest changed.'; //直接报错：SyntaxError: Identifier 'letTest' has already been declared
+	
+	  console.log(varTest); //输出varTest changed.(注意要注释掉上面letTest变量的重复声明才能运行)
+	  console.log(letTest);
+	}());
 
 
 第四种情况：变量作用范围，表现不同
 
-`'use strict';
-
-(function() {
-  var varTest = 'test var OK.';
-  let letTest = 'test let OK.';
-
-  {
-    var varTest = 'varTest changed.';
-    let letTest = 'letTest changed.';
-  }
-
-  console.log(varTest); //输出"varTest changed."，内部"{}"中声明的varTest变量覆盖外部的letTest声明
-  console.log(letTest); //输出"test let OK."，内部"{}"中声明的letTest和外部的letTest不是同一个变量
-}());`
+	'use strict';
+	
+	(function() {
+	  var varTest = 'test var OK.';
+	  let letTest = 'test let OK.';
+	
+	  {
+	    var varTest = 'varTest changed.';
+	    let letTest = 'letTest changed.';
+	  }
+	
+	  console.log(varTest); //输出"varTest changed."，内部"{}"中声明的varTest变量覆盖外部的letTest声明
+	  console.log(letTest); //输出"test let OK."，内部"{}"中声明的letTest和外部的letTest不是同一个变量
+	}());
 
 
 
