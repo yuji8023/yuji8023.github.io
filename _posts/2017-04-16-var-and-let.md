@@ -1,7 +1,7 @@
 ---
 layout: post
 title: var 与   let 的区别
-date: 2017-04-15 23:12:00
+date: 2017-04-16 22:44:00
 categories: blog
 tags: [js]
 description: ES6中let与var的区别
