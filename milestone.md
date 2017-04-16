@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "个人简历"
+title: "个人简介"
 description: "路漫漫其修远兮，吾将上下而求索"
 header-img: "img/zhihu.jpg"
 ---
