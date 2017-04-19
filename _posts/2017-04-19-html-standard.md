@@ -31,23 +31,25 @@ description: html规范
 
 * 针对ie引入的文件写入注释语句中，注释条件语法如下，现在只针对ie8以上版本适配，需要的适配文件见有关资源。目前已经收集的兼容文件有兼容h5,媒体查询响应，css3选择器，css3部分属性。（备注：css3样式生效的前提是样式写在外链的样式文件中，写在style中是无效的）。
 
-<pre><code>
-	<!--[if  lt IE 9]>   
-		<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-		<script src="../js/selectivizr.js"></script>
-		<noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
-		<script src="../js/PIE.js"></script>
-    <![endif]-->
-	Hpie 的需要追加绑定脚本
-	$(function() {
-		if (window.PIE) {
-			$( '.container-fluid' ).each(function () {
-				PIE.attach(this);
-			});
-		}
-    });
- </code></pre>
+
+~~~ html
+   <!--[if  lt IE 9]>
+   <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+   <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+   <script src="../js/selectivizr.js"></script>
+   <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+   <script src="../js/PIE.js"></script>
+  <![endif]-->
+   # pie 的需要追加绑定脚本
+   $(function() {
+   if (window.PIE) {
+   $( '.container-fluid' ).each(function () {
+   PIE.attach(this);
+   });
+   }
+   });
+~~~
+ 
 
    
 > 将html5shiv复制到head部分，记住一定要是head部分（因为IE必须在元素解析前知道这个元素，所以这个js文件不能在其他位置调用，否则失效）<br>
