@@ -38,7 +38,7 @@ description: html规范
 		<script src="../js/selectivizr.js"></script>
 		<noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
 		<script src="../js/PIE.js"></script>
-   <![endif]-->
+    <![endif]-->
 	Hpie 的需要追加绑定脚本
 	$(function() {
 		if (window.PIE) {
@@ -46,7 +46,7 @@ description: html规范
 				PIE.attach(this);
 			});
 		}
- });
+    });
  </code></pre>
 
    
