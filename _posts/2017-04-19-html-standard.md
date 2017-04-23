@@ -42,12 +42,12 @@ description: html规范
   <![endif]-->
    # pie 的需要追加绑定脚本
    $(function() {
-   if (window.PIE) {
-   $( '.container-fluid' ).each(function () {
-   PIE.attach(this);
-   });
-   }
-   });
+	  if (window.PIE) {
+	    $( '.container-fluid' ).each(function () {
+		  PIE.attach(this);
+		});
+	  }
+  });
 ~~~
  
 
