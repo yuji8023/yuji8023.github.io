@@ -1,10 +1,10 @@
 ---
 layout: post
-title: html规范文档
+title: （转）前端构建工具gulpjs的使用介绍及技巧
 date: 2017-04-23 18:17:00
 categories: blog
 tags: [js]
-description: [转]前端构建工具gulpjs的使用介绍及技巧
+description: （转）前端构建工具gulpjs的使用介绍及技巧
 ---
 
 转载自 [前端构建工具gulpjs的使用介绍及技巧](http://www.cnblogs.com/2050/p/4198792.html)
