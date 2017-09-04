@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vue项目的proxy代理设置dev-server
-date: 2017-04-16 22:44:00
+date: 2017-09-05 00:54:00
 categories: blog
 tags: [vue]
 description: vue项目的proxy代理设置dev-server
