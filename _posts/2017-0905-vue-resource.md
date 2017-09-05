@@ -1,6 +1,6 @@
 ---
 layout: post
-title: vue-resourcce详解
+title: vue-resource详解
 date: 2017-09-05 23:11:00
 categories: blog
 tags: [vue]
