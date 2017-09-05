@@ -187,8 +187,6 @@ apiUrl: 'http://211.149.193.19:8080/api/customers{/id}'
 
 拦截器可以在请求发送前和发送请求后做一些处理。
 
-<img src="http://images2015.cnblogs.com/blog/341820/201607/341820-20160710080109342-1842115136.png" alt="" />
-
 example
 
     Vue.http.interceptors.push((request, next) => {
