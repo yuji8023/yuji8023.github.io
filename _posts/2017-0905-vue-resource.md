@@ -186,7 +186,8 @@ apiUrl: 'http://211.149.193.19:8080/api/customers{/id}'
 ## 使用inteceptor
 
 拦截器可以在请求发送前和发送请求后做一些处理。
-<img style="background-image: none; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-width: 0px;" title="image" src="http://images2015.cnblogs.com/blog/341820/201607/341820-20160710080109342-1842115136.png" alt="image" width="514" height="479" border="0">
+
+<img src="http://images2015.cnblogs.com/blog/341820/201607/341820-20160710080109342-1842115136.png" alt="" />
 
 example
 
