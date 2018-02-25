@@ -1,3 +1,11 @@
+---
+layout: post
+title: 大型PC项目Vue重构总结
+date: 2017-02-06 23:00:00
+categories: blog
+tags: [js]
+description: 关于云学院项目Vue重构的总结
+---
 
 ## 前言
 
