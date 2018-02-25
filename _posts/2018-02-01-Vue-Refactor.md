@@ -26,7 +26,7 @@ description: 关于云学院项目Vue重构的总结
 
 `index.js`是使用express搭建的一个后台服务，你可以将它看做一个[history模式](https://router.vuejs.org/zh-cn/essentials/history-mode.html),下面会讲到History模式需要注意的地方。
 **history模式下的项目在构建后必须运行在服务器上或者一个 HTTP 服务上 才能正常运行。**
-![http server tip](../img/blog/http-tip.png)
+![http server tip](/img/blog/http-tip.png)
 
 可以通过`Node + Express`搭建一个静态服务器
 通过` node index` 命令可以启动一个node后台服务
@@ -41,7 +41,7 @@ description: 关于云学院项目Vue重构的总结
 这句话的作用是将dist文件夹指定为静态文件资源的root目录
 [express文档](http://www.expressjs.com.cn/4x/api.html#express.static)
 
-![express static](../img/blog/express-static.png)
+![express static](/img/blog/express-static.png)
 
 #### config文件夹
 
@@ -82,7 +82,7 @@ index.js是主要文件
 
 开发时代码基本都是在这里面，这里面又分很多功能文件夹。
 
-![src文件夹结构](../img/blog/src-li.png)
+![src文件夹结构](/img/blog/src-li.png)
 
 **assets文件夹**---------静态资源所在
 **components**-----------通用组件所在
@@ -244,7 +244,7 @@ index.js是主要文件
 全局变量：
 全局变量使用 vuex ，在`mutation-type.js` 里面声明常量 ，相关使用常量替代Mutation 事件类型
 
-![Mutation介绍](../img/blog/mutation.png)
+![Mutation介绍](/img/blog/mutation.png)
 
 前期没把一些枚举类作为全局变量来写，这个作为一个优化的点以后讨论，可以考虑放在state里面存储
 不过对于一些纯粹的全局数据，还是要放在vuex的state里面。eg：登录id、机构、姓名等等
