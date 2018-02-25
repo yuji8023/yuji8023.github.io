@@ -22,7 +22,7 @@ description: 关于云学院项目Vue重构的总结
 
 项目结构：
 
-![项目结构图片](../img/blog/project-structure.png)
+![项目结构图片](/img/blog/project-structure.png)
 
 `index.js`是使用express搭建的一个后台服务，你可以将它看做一个[history模式](https://router.vuejs.org/zh-cn/essentials/history-mode.html),下面会讲到History模式需要注意的地方。
 **history模式下的项目在构建后必须运行在服务器上或者一个 HTTP 服务上 才能正常运行。**
