@@ -59,26 +59,26 @@ layout: default
 
                 <!-- 评论框 start -->
                 <div id="container"></div>
-                    
-                <!-- 多说评论框 end -->
+                <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+                <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+                <script>
+                var gitment = new Gitment({
+                  owner: 'yuji8023',
+                  repo: 'hukangwei.github.io',
+                  oauth: {
+                    client_id: 'cf63fce607147c187cdf',
+                    client_secret: 'baccd93bd269cff09e0b9e648d59b60072c6716c',
+                  },
+                })
+                gitment.render('container')
+                </script>
+                <!-- 评论框 end -->
             </div>
         </div>
     </div>
 </article>
 
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  owner: 'yuji8023',
-  repo: 'https://github.com/hukangwei/hukangwei.github.io',
-  oauth: {
-    client_id: 'cf63fce607147c187cdf',
-    client_secret: 'baccd93bd269cff09e0b9e648d59b60072c6716c',
-  },
-})
-gitment.render('container')
-</script>
+
 
 
 
