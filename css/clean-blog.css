@@ -206,6 +206,15 @@ hr.small {
   margin-bottom: 0px;
   /* 0 on mobile, changed the setting*/
 }
+.intro-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: 0.5;
+}
 @media only screen and (min-width: 768px) {
   .intro-header {
     margin-bottom: 20px;
