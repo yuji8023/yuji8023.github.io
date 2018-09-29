@@ -68,6 +68,9 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+.listing-item {
+  
+}
 @media screen and (max-width: 500px) {
   pre code {
     display: block;
