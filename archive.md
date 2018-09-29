@@ -2,7 +2,7 @@
 layout: page
 title: "BLOGS"
 description: "你看到的，是我所有的博客"
-header-img: "img/green.png"
+header-img: "img/green.jpg"
 ---
 
 
