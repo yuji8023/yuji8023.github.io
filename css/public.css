@@ -1,13 +1,20 @@
 .yu-tag{
-	width: 55px;
-	height: 25px;
-	line-height: 25px;
-	display: inline-block;
-	border: 1px solid #ff9244;
-	border-radius: 5px;
-	margin-right: 10px;
-	color: #ff9244;
-	text-align: center;
+	    width: 55px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    /* color: #ff9244; */
+    text-align: center;
+    background: #666;
+    box-shadow: 0 0 5px #ccc;
+}
+.yu-tag:hover {
+	color:#666;
+	background: #fff;
 }
 #tag_cloud{
 	padding: 10px 0;
