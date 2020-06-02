@@ -119,3 +119,7 @@ app.use(session({
 ```
 
 [官方文档](https://www.npmjs.com/package/morgan)
+
+## method-override
+
+[连接](http://monjer.me/2017/09/18/%E4%BD%BF%E7%94%A8method-override%E4%B8%AD%E9%97%B4%E4%BB%B6.html)
